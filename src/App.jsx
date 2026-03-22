@@ -186,7 +186,7 @@ export default function RaadsanStyleWebsite() {
         </div>
       </section>
 
-      <section className="bg-zinc-900 px-6 py-16 text-white" id="about">
+      <section className="bg-purple-700 px-6 py-16 text-white" id="about">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-2">
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-zinc-400">About Brand</p>
@@ -236,15 +236,15 @@ export default function RaadsanStyleWebsite() {
           </div>
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
-            <a href="#" className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1">
+            <a href="#" className="rounded-2x bg-[#f8f5f2] p-5 text-center shadow-sm transition hover:-translate-y-1">
               <p className="text-sm text-zinc-500">Facebook</p>
               <p className="mt-1 font-bold">@Raadsan_Style</p>
             </a>
-            <a href="#" className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1">
+            <a href="#" className="rounded-2xl bg-[#f8f5f2] p-5 text-center shadow-sm transition hover:-translate-y-1">
               <p className="text-sm text-zinc-500">Instagram</p>
               <p className="mt-1 font-bold">@Raadsan_Style</p>
             </a>
-            <a href="https://wa.me/31658974764" className="rounded-2xl bg-zinc-900 p-5 text-center text-white shadow-sm transition hover:-translate-y-1">
+            <a href="https://wa.me/31658974764" className="rounded-2xl bg-black p-5 text-center text-white shadow-sm transition hover:-translate-y-1">
               <p className="text-sm text-zinc-300">WhatsApp</p>
               <p className="mt-1 font-bold">Order Now</p>
             </a>
