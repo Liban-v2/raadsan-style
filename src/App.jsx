@@ -48,7 +48,7 @@ export default function RaadsanStyleWebsite() {
   ];
 
   return (
-    <div className="min-h-screen bg-zinc-900 text-zinc-900">
+    <div className="min-h-screen bg-zinc-900 text-white">
       <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
@@ -71,16 +71,16 @@ export default function RaadsanStyleWebsite() {
         </div>
       </header>
 
-      <section className="relative overflow-hidden">
+            <section className="relative overflow-hidden">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
           <div>
-            <p className="mb-3 inline-block rounded-full bg-zinc-100 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-zinc-600">
+            <p className="mb-3 inline-block rounded-full border border-yellow-500/30 bg-yellow-500/10 px-3 py-1 text-xs font-semibold uppercase tracking-widest text-yellow-400">
               New Season Collection
             </p>
-            <h2 className="max-w-xl text-4xl font-black leading-tight md:text-6xl">
+            <h2 className="max-w-xl text-4xl font-black leading-tight text-white md:text-6xl">
               Feel elegant. Look graceful. Wear Raadsan_Style.
             </h2>
-            <p className="mt-5 max-w-lg text-base leading-7 text-zinc-600 md:text-lg">
+            <p className="mt-5 max-w-lg text-base leading-7 text-zinc-300 md:text-lg">
               Discover luxury diraac, elegant abayas, ladies parfum, and stylish shoes designed for weddings, modern looks, and simple everyday beauty.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
@@ -92,23 +92,23 @@ export default function RaadsanStyleWebsite() {
               </a>
               <a
                 href="#contact"
-                className="rounded-2xl border border-zinc-300 px-6 py-3 text-sm font-semibold text-zinc-900"
+                className="rounded-2xl border border-zinc-300 px-6 py-3 text-sm font-semibold text-white"
               >
                 Message to Order
               </a>
             </div>
             <div className="mt-8 grid max-w-md grid-cols-3 gap-4 text-center">
-              <div className="rounded-2xl border p-4">
-                <p className="text-2xl font-black">500+</p>
-                <p className="text-sm text-zinc-500">Happy Customers</p>
+              <div className="rounded-2xl border border-yellow-500/30 bg-zinc-950 p-4">
+                <p className="text-2xl font-black text-white">500+</p>
+                <p className="text-sm text-zinc-400">Happy Customers</p>
               </div>
-              <div className="rounded-2xl border p-4">
-                <p className="text-2xl font-black">24/7</p>
-                <p className="text-sm text-zinc-500">Order Support</p>
+              <div className="rounded-2xl border border-yellow-500/30 bg-zinc-950 p-4">
+                <p className="text-2xl font-black text-white">24/7</p>
+                <p className="text-sm text-zinc-400">Order Support</p>
               </div>
-              <div className="rounded-2xl border p-4">
-                <p className="text-2xl font-black">Fast</p>
-                <p className="text-sm text-zinc-500">Delivery</p>
+              <div className="rounded-2xl border border-yellow-500/30 bg-zinc-950 p-4">
+                <p className="text-2xl font-black text-white">Fast</p>
+                <p className="text-sm text-zinc-400">Delivery</p>
               </div>
             </div>
           </div>
@@ -131,14 +131,14 @@ export default function RaadsanStyleWebsite() {
         <div className="mb-6 flex items-center justify-between gap-4">
           <div>
             <p className="text-sm font-semibold uppercase tracking-widest text-zinc-500">Browse</p>
-            <h3 className="text-3xl font-black">Shop by Category</h3>
+            <h3 className="text-3xl font-black text-white">Shop by Category</h3>
           </div>
         </div>
         <div className="grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
           {categories.map((category) => (
             <div
               key={category}
-              className="rounded-2xl border bg-zinc-50 px-4 py-5 text-center text-sm font-semibold shadow-sm transition hover:-translate-y-1 hover:bg-white"
+              className="rounded-2xl border bg-zinc-900 text-white border border-yellow-500/30 px-4 py-5 text-center text-sm font-semibold shadow-sm transition hover:-translate-y-1 hover:bg-white"
             >
               {category}
             </div>
@@ -151,7 +151,7 @@ export default function RaadsanStyleWebsite() {
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-zinc-500">Contact</p>
             <h3 className="mt-2 text-3xl font-black">Ready to order?</h3>
-            <p className="mx-auto mt-4 max-w-2xl text-zinc-600">
+            <p className="mx-auto mt-4 max-w-2xl text-zinc-300">
               Message Raadsan_Style on WhatsApp to place your order, ask for sizes, or request the newest diraac, abayas, parfum, and shoes.
             </p>
           </div>
