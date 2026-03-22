@@ -48,7 +48,7 @@ export default function RaadsanStyleWebsite() {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-zinc-900">
+    <div className="min-h-screen bg-zinc-900 text-zinc-900">
       <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <div>
@@ -146,86 +146,7 @@ export default function RaadsanStyleWebsite() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-16" id="new">
-        <div className="mb-8 flex items-end justify-between gap-4">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-zinc-500">Featured</p>
-            <h3 className="text-3xl font-black">Best Picks This Week</h3>
-          </div>
-          <p className="max-w-md text-sm text-zinc-500">
-            Hand-picked styles your customers can order directly through WhatsApp for weddings, special occasions, and everyday elegance.
-          </p>
-        </div>
-
-        <div className="grid gap-6 md:grid-cols-3">
-          {featuredProducts.map((product) => (
-            <div key={product.name} className="overflow-hidden rounded-[2rem] border bg-white shadow-sm">
-              <div className="relative">
-                <img src={product.image} alt={product.name} className="h-80 w-full object-cover" />
-                <span className="absolute left-4 top-4 rounded-full bg-white px-3 py-1 text-xs font-bold">
-                  {product.tag}
-                </span>
-              </div>
-              <div className="p-5">
-                <div className="mb-3 flex items-start justify-between gap-3">
-                  <h4 className="text-lg font-bold">{product.name}</h4>
-                  <p className="text-base font-black">{product.price}</p>
-                </div>
-                <p className="mb-4 text-sm leading-6 text-zinc-500">
-                  Elegant design, beautiful details, and perfect for weddings, luxury occasions, or simple everyday wear.
-                </p>
-                <a
-                  href="https://wa.me/31658974764?text=Hi%20I%20want%20to%20order%20from%20Raadsan_Style"
-                  className="block w-full rounded-2xl bg-zinc-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:opacity-90"
-                >
-                  Order on WhatsApp
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="bg-purple-700 px-6 py-16 text-white" id="about">
-        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-2">
-          <div>
-            <p className="text-sm font-semibold uppercase tracking-widest text-zinc-400">About Brand</p>
-            <h3 className="mt-2 text-3xl font-black md:text-4xl">Raadsan_Style is created for women who love luxury, modesty, modern elegance, and timeless beauty.</h3>
-          </div>
-          <div>
-            <p className="text-base leading-7 text-zinc-300">
-              We focus on beautiful diraac, elegant abayas, ladies parfum, and stylish shoes that make every woman feel confident and graceful. Whether she is shopping for a wedding, a luxury occasion, or a simple everyday look, Raadsan_Style brings beauty and quality together.
-            </p>
-            <div className="mt-6 grid grid-cols-2 gap-4 text-sm">
-              <div className="rounded-2xl border border-white/10 p-4">
-                <p className="font-bold">Premium Feel</p>
-                <p className="mt-1 text-zinc-400">Luxury pieces that feel elegant and premium.</p>
-              </div>
-              <div className="rounded-2xl border border-white/10 p-4">
-                <p className="font-bold">Easy Ordering</p>
-                <p className="mt-1 text-zinc-400">Customers can order by message in seconds.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 py-16" id="reviews">
-        <div className="mb-8 text-center">
-          <p className="text-sm font-semibold uppercase tracking-widest text-zinc-500">Customer Love</p>
-          <h3 className="text-3xl font-black">What People Say</h3>
-        </div>
-        <div className="grid gap-6 md:grid-cols-3">
-          {testimonials.map((review) => (
-            <div key={review.name} className="rounded-[2rem] border bg-zinc-50 p-6 shadow-sm">
-              <p className="text-base leading-7 text-zinc-600">“{review.text}”</p>
-              <p className="mt-5 text-sm font-black">{review.name}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-4xl px-6 py-16" id="contact">
+            <section className="mx-auto max-w-4xl px-6 py-16" id="contact">
         <div className="rounded-[2rem] bg-zinc-100 p-8 shadow-inner md:p-12">
           <div className="text-center">
             <p className="text-sm font-semibold uppercase tracking-widest text-zinc-500">Contact</p>
@@ -236,16 +157,27 @@ export default function RaadsanStyleWebsite() {
           </div>
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
-            <a href="#" className="rounded-2x bg-[#f8f5f2] p-5 text-center shadow-sm transition hover:-translate-y-1">
+            <a
+              href="#"
+              className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1"
+            >
               <p className="text-sm text-zinc-500">Facebook</p>
               <p className="mt-1 font-bold">@Raadsan_Style</p>
             </a>
-            <a href="#" className="rounded-2xl bg-[#f8f5f2] p-5 text-center shadow-sm transition hover:-translate-y-1">
+
+            <a
+              href="#"
+              className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1"
+            >
               <p className="text-sm text-zinc-500">Instagram</p>
               <p className="mt-1 font-bold">@Raadsan_Style</p>
             </a>
-            <a href="https://wa.me/31658974764" className="rounded-2xl bg-black p-5 text-center text-white shadow-sm transition hover:-translate-y-1">
-              <p className="text-sm text-zinc-300">WhatsApp</p>
+
+            <a
+              href="https://wa.me/31658974764?text=Hi%20I%20want%20to%20order%20from%20Raadsan_Style"
+              className="rounded-2xl bg-yellow-500 p-5 text-center text-black shadow-sm transition hover:-translate-y-1"
+            >
+              <p className="text-sm text-zinc-800">WhatsApp</p>
               <p className="mt-1 font-bold">Order Now</p>
             </a>
           </div>
@@ -254,26 +186,30 @@ export default function RaadsanStyleWebsite() {
             <input
               type="text"
               placeholder="Your name"
-              className="rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none ring-0"
+              className="rounded-2xl border border-yellow-500 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-400 outline-none focus:border-yellow-400"
             />
+
             <input
               type="email"
               placeholder="Your email"
-              className="rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none ring-0"
+              className="rounded-2xl border border-yellow-500 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-400 outline-none focus:border-yellow-400"
             />
+
             <input
               type="text"
               placeholder="Product you want"
-              className="rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none ring-0 md:col-span-2"
+              className="rounded-2xl border border-yellow-500 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-400 outline-none focus:border-yellow-400 md:col-span-2"
             />
+
             <textarea
               placeholder="Your message"
               rows={5}
-              className="rounded-2xl border border-zinc-200 bg-white px-4 py-3 outline-none ring-0 md:col-span-2"
-            />
+              className="rounded-2xl border border-yellow-500 bg-zinc-900 px-4 py-3 text-white placeholder:text-zinc-400 outline-none focus:border-yellow-400 md:col-span-2"
+            ></textarea>
+
             <a
-              href="https://wa.me/31658974764"
-              className="rounded-2xl bg-zinc-900 px-6 py-3 text-center text-sm font-semibold text-white md:col-span-2"
+              href="https://wa.me/31658974764?text=Hi%20I%20want%20to%20order%20from%20Raadsan_Style"
+              className="rounded-2xl bg-yellow-500 px-6 py-3 text-center text-sm font-semibold text-black md:col-span-2"
             >
               Order via WhatsApp
             </a>
