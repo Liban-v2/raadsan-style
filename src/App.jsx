@@ -175,7 +175,7 @@ export default function RaadsanStyleWebsite() {
                   Elegant design, beautiful details, and perfect for weddings, luxury occasions, or simple everyday wear.
                 </p>
                 <a
-                  href="https://wa.me/31658974764"
+                  href="https://wa.me/31658974764?text=Hi%20I%20want%20to%20order%20from%20Raadsan_Style"
                   className="block w-full rounded-2xl bg-zinc-900 px-4 py-3 text-center text-sm font-semibold text-white transition hover:opacity-90"
                 >
                   Order on WhatsApp
