@@ -149,9 +149,9 @@ export default function RaadsanStyleWebsite() {
             <section className="mx-auto max-w-4xl px-6 py-16" id="contact">
         <div className="rounded-[2rem] bg-zinc-100 p-8 shadow-inner md:p-12">
           <div className="text-center">
-            <p className="text-sm font-semibold uppercase tracking-widest text-zinc-500">Contact</p>
-            <h3 className="mt-2 text-3xl font-black">Ready to order?</h3>
-            <p className="mx-auto mt-4 max-w-2xl text-zinc-300">
+            <p className="text-sm font-semibold uppercase tracking-widest text-yellow-400">Contact</p>
+            <h3 className="mt-2 text-3xl font-black text-black">Ready to order?</h3>
+            <p className="mx-auto mt-4 max-w-2xl text-zinc-700">
               Message Raadsan_Style on WhatsApp to place your order, ask for sizes, or request the newest diraac, abayas, parfum, and shoes.
             </p>
           </div>
@@ -161,16 +161,16 @@ export default function RaadsanStyleWebsite() {
               href="#"
               className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1"
             >
-              <p className="text-sm text-zinc-500">Facebook</p>
-              <p className="mt-1 font-bold">@Raadsan_Style</p>
+              <p className="text-sm text-zinc-700">Facebook</p>
+              <p className="mt-1 font-bold text-black">@Raadsan_Style</p>
             </a>
 
             <a
               href="#"
               className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1"
             >
-              <p className="text-sm text-zinc-500">Instagram</p>
-              <p className="mt-1 font-bold">@Raadsan_Style</p>
+              <p className="text-sm text-zinc-700">Instagram</p>
+              <p className="mt-1 font-bold text-black">@Raadsan_Style</p>
             </a>
 
             <a
