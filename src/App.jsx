@@ -1,3 +1,4 @@
+import logo from "./logo.png";
 export default function RaadsanStyleWebsite() {
   const featuredProducts = [
     {
@@ -49,28 +50,41 @@ export default function RaadsanStyleWebsite() {
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white">
-      <header className="sticky top-0 z-50 border-b bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-          <div>
-            <h1 className="text-2xl font-black tracking-tight">Raadsan_Style</h1>
-            <p className="text-xs text-zinc-500">Luxury modest fashion for every woman</p>
-          </div>
-          <nav className="hidden gap-6 text-sm md:flex">
-            <a href="#shop" className="hover:text-zinc-600">Shop</a>
-            <a href="#new" className="hover:text-zinc-600">New Arrivals</a>
-            <a href="#about" className="hover:text-zinc-600">About</a>
-            <a href="#reviews" className="hover:text-zinc-600">Reviews</a>
-            <a href="#contact" className="hover:text-zinc-600">Contact</a>
-          </nav>
-          <a
-            href="#contact"
-            className="rounded-2xl bg-zinc-900 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:opacity-90"
-          >
-            Order Now
-          </a>
-        </div>
-      </header>
+      <header className="sticky top-0 z-50 border-b border-yellow-500/20 bg-black/95 backdrop-blur">
+  <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
+    
+    <a href="#" className="flex items-center gap-3">
+      <img
+        src={logo}
+        alt="Raadsan Style Logo"
+        className="h-24 w-auto drop-shadow-lg"
+      />
+      <div className="hidden sm:block">
+        <p className="text-xs uppercase tracking-[0.35em] text-yellow-400">
+          Raadsan
+        </p>
+        <p className="font-serif text-xl italic text-white">
+          Style
+        </p>
+      </div>
+    </a>
 
+    <nav className="hidden items-center gap-8 text-xs font-semibold uppercase tracking-[0.25em] text-zinc-300 md:flex">
+      <a href="#shop" className="transition hover:text-yellow-400">Shop</a>
+      <a href="#new" className="transition hover:text-yellow-400">New</a>
+      <a href="#about" className="transition hover:text-yellow-400">About</a>
+      <a href="#reviews" className="transition hover:text-yellow-400">Reviews</a>
+      <a href="#contact" className="transition hover:text-yellow-400">Contact</a>
+    </nav>
+
+    <a
+      href="#contact"
+      className="rounded-full border border-yellow-500 bg-yellow-500 px-5 py-2 text-xs font-bold uppercase tracking-widest text-black shadow-lg transition hover:bg-black hover:text-yellow-400"
+    >
+      Order
+    </a>
+  </div>
+</header>
             <section className="relative overflow-hidden">
         <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
           <div>
