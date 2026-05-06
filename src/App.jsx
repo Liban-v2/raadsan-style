@@ -9,7 +9,7 @@ export default function RaadsanStyleWebsite() {
         "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80",
     },
     {
-      name: "Elegant Abaya Set",
+      name: "Luxury Handbag Collection",
       price: "$75",
       tag: "Best Seller",
       image:
@@ -26,7 +26,7 @@ export default function RaadsanStyleWebsite() {
 
   const categories = [
     "Diraac",
-    "Abayas",
+    "Handbags",
     "Ladies Parfum",
     "Shoes",
     "Wedding Collection",
@@ -95,7 +95,7 @@ export default function RaadsanStyleWebsite() {
               Feel elegant. Look graceful. Wear Raadsan_Style.
             </h2>
             <p className="mt-5 max-w-lg text-base leading-7 text-zinc-300 md:text-lg">
-              Discover luxury diraac, elegant abayas, ladies parfum, and stylish shoes designed for weddings, modern looks, and simple everyday beauty.
+              Discover luxury diraac, Luxury Handbag Collection, ladies parfum, and stylish shoes designed for weddings, modern looks, and simple everyday beauty.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -111,7 +111,7 @@ export default function RaadsanStyleWebsite() {
                 Message to Order
               </a>
             </div>
-            <div className="mt-8 grid max-w-md grid-cols-3 gap-4 text-center">
+            <div className="mt-8 grid max-w-md grid-cols-2 gap-4 text-center">
               <div className="rounded-2xl border border-yellow-500/30 bg-zinc-950 p-4">
                 <p className="text-2xl font-black text-white">500+</p>
                 <p className="text-sm text-zinc-400">Happy Customers</p>
@@ -144,7 +144,39 @@ export default function RaadsanStyleWebsite() {
           </div>
         </div>
       </section>
+<section id="about" className="mx-auto max-w-6xl px-6 py-20">
+  <div className="grid gap-10 md:grid-cols-2 items-center">
 
+    {/* TEXT */}
+    <div>
+      <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        About Raadsan Style
+      </h2>
+
+      <p className="text-zinc-300 leading-7 mb-4">
+        At Raadsan Style, we believe elegance is more than fashion, it is a statement of confidence, grace, and identity.
+      </p>
+
+      <p className="text-zinc-300 leading-7 mb-4">
+        Our collections are carefully selected to offer luxury modest fashion for every woman, combining timeless designs with modern style. From diraac and handbags to perfumes and shoes, every piece reflects quality and sophistication.
+      </p>
+
+      <p className="text-zinc-300 leading-7">
+        Raadsan Style is not just a brand, it is a lifestyle of elegance.
+      </p>
+    </div>
+
+    {/* IMAGE (optional but makes it premium) */}
+    <div className="rounded-3xl overflow-hidden shadow-lg">
+      <img
+        src="https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?q=80&w=900"
+        alt="Luxury fashion"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+  </div>
+</section>
       <section className="mx-auto max-w-7xl px-6 py-8" id="shop">
         <div className="mb-6 flex items-center justify-between gap-4">
           <div>
@@ -176,20 +208,22 @@ export default function RaadsanStyleWebsite() {
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <a
-              href="#"
-              className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1"
-            >
-              <p className="text-sm text-zinc-700">Facebook</p>
-              <p className="mt-1 font-bold text-black">@Raadsan_Style</p>
-            </a>
-
-            <a
-              href="#"
-              className="rounded-2xl bg-white p-5 text-center shadow-sm transition hover:-translate-y-1"
-            >
-              <p className="text-sm text-zinc-700">Instagram</p>
-              <p className="mt-1 font-bold text-black">@Raadsan_Style</p>
-            </a>
+  href="#"
+  className="rounded-2xl border border-yellow-500/30 bg-black p-5 text-center shadow-sm transition hover:-translate-y-1"
+>
+  <p className="text-sm text-yellow-400">Facebook</p>
+  <p className="mt-1 font-bold text-white">@Raadsan_Style</p>
+</a>
+<a
+  href="https://www.tiktok.com/@raadsan_style"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="rounded-2xl border border-yellow-500/30 bg-black p-5 text-center shadow-sm transition hover:-translate-y-1"
+>
+  <p className="text-sm text-yellow-400">TikTok</p>
+  <p className="mt-1 font-bold text-white">@raadsan_style</p>
+</a>
+            
 
             <a
               href="https://wa.me/31658974764?text=Hi%20I%20want%20to%20order%20from%20Raadsan_Style"
@@ -240,7 +274,14 @@ export default function RaadsanStyleWebsite() {
           <p>© 2026 Raadsan_Style. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-zinc-900">Facebook</a>
-            <a href="#" className="hover:text-zinc-900">Instagram</a>
+            <a
+  href="https://www.tiktok.com/@raadsan_style"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-yellow-400"
+>
+  TikTok
+</a>
             <a href="https://wa.me/31658974764" className="hover:text-zinc-900">WhatsApp</a>
           </div>
         </div>
