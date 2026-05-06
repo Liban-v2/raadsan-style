@@ -133,10 +133,14 @@ export default function RaadsanStyleWebsite() {
               alt="Fashion model wearing modern clothing"
               className="h-[520px] w-full rounded-[2rem] object-cover shadow-2xl"
             />
-            <div className="absolute bottom-4 left-4 rounded-2xl bg-white/90 p-4 shadow-xl backdrop-blur">
-              <p className="text-xs uppercase tracking-widest text-zinc-500">Trending Now</p>
-              <p className="text-lg font-bold">Luxury Modest Collection</p>
-            </div>
+            <div className="absolute bottom-4 left-4 rounded-2xl border border-yellow-500/30 bg-black/80 p-4 shadow-xl backdrop-blur">
+  <p className="text-xs uppercase tracking-widest text-yellow-400">
+    Trending Now
+  </p>
+  <p className="mt-1 text-lg font-bold text-white">
+    Luxury Modest Collection
+  </p>
+</div>
           </div>
         </div>
       </section>
